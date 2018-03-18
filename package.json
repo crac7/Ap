@@ -1,0 +1,21 @@
+{
+  "name": "apiups",
+  "version": "1.0.0",
+  "description": "api que consume de la base de notas de ups para discapacitados",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cesar Anzules and Denise Escalante",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "jwt-simple": "^0.5.1",
+    "moment": "^2.20.1",
+    "nodemon": "^1.14.3",
+    "oracledb": "^2.1.2",
+    "pg": "^7.4.0"
+  }
+}
